@@ -10,6 +10,7 @@ public class MessageController {
 
     @GetMapping("/api/message")
     public String getMessage() {
-        return "Hello from Spring Boot API!";
+        return "Hello from Spring Boot API - Azure!";
     }
 }
+
