@@ -6,7 +6,7 @@ function App() {
 
   const getMessage = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/message");
+      const response = await fetch("https://api-appservice.azurewebsites.net/api/message")
 
       if (!response.ok) {
         throw new Error("API request failed");
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>UI + API Demo</h1>
+      <h1>UI + API CI/CD Demo</h1>
 
       <button onClick={getMessage}>
         Get Message From API
