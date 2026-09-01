@@ -25,7 +25,8 @@ function App() {
       <h1>UI + API CI/CD Demo</h1>
 
       <button onClick={getMessage}>
-        Get Message From API
+        Get Message From Server
+
       </button>
 
       {message && (
