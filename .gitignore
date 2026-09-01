@@ -1,0 +1,20 @@
+# React / Node
+UI/node_modules/
+UI/dist/
+UI/.vite/
+
+# Spring Boot / Maven
+API/target/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
