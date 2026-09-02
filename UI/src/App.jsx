@@ -263,7 +263,7 @@ function App() {
         </section>
 
         <footer>
-          <span>EmployeeHub © 2026</span>
+          <span>EmployeeHub © 2026 | CICD Test</span>
           <span>Powered by React + Spring Boot + Azure</span>
         </footer>
       </main>
