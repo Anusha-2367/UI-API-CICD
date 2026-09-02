@@ -31,4 +31,3 @@ jobs:
           echo "::add-mask::$VERSION"
           echo "Key Vault access successful."
           echo "Current deployment version: $VERSION"
-```
