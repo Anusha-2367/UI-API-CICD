@@ -156,7 +156,7 @@ function App() {
           <div className="stat-card">
             <div className="stat-icon leave-icon">◷</div>
             <div>
-              <span>On Leave</span>
+              <span> Leave</span>
               <h3>{onLeaveEmployees}</h3>
               <small>Currently unavailable</small>
             </div>
