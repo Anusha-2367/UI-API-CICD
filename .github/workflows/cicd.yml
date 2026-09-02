@@ -489,4 +489,3 @@ jobs:
           git push origin "$TAG"
 
           echo "Deployment tag created successfully: $TAG"
-```
