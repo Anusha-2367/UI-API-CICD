@@ -12,8 +12,8 @@ import java.util.List;
 public class MessageController {
 
     @GetMapping("/api/message")
-        public String getMessage() {
-            return "Hello from Employee Management API - Azure!";
+    public String getMessage() {
+        return "Hello from Employee Management API - Azure!"; // API response
     }
 
     public static class Employee {
@@ -53,4 +53,3 @@ public class MessageController {
         }
     }
 }
-
